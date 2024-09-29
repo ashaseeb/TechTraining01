@@ -6,7 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "first_name",
-  "last_name"
+  "last_name",
+  "new_field"
  ],
  "fields": [
   {
@@ -18,11 +19,16 @@
    "fieldname": "last_name",
    "fieldtype": "Data",
    "label": "Last Name"
+  },
+  {
+   "fieldname": "new_field",
+   "fieldtype": "Data",
+   "label": "New Field"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-29 22:20:46.734353",
+ "modified": "2024-09-29 22:50:20.375787",
  "modified_by": "Administrator",
  "module": "Firstapp",
  "name": "Applicant Form",
